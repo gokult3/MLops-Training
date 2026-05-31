@@ -1,0 +1,28 @@
+{
+  "version": "6.3.0",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "kcups",
+      "points": [
+        [
+          25.64044943820221,
+          422.1123595505618
+        ],
+        [
+          505.4157303370786,
+          825.4831460674156
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "v3_300.jpg",
+  "imageData": null,
+  "imageHeight": 1024,
+  "imageWidth": 576
+}

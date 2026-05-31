@@ -1,0 +1,28 @@
+{
+  "version": "6.3.0",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "mobile",
+      "points": [
+        [
+          625.7407407407409,
+          173.33333333333337
+        ],
+        [
+          1444.0740740740744,
+          1080.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "v1_1320.jpg",
+  "imageData": null,
+  "imageHeight": 1080,
+  "imageWidth": 1920
+}

@@ -1,0 +1,28 @@
+{
+  "version": "6.3.0",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "samsung galaxy s21 ultra",
+      "points": [
+        [
+          345.3658536585366,
+          815.0
+        ],
+        [
+          633.1707317073171,
+          927.1951219512194
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "v1_300.jpg",
+  "imageData": null,
+  "imageHeight": 1080,
+  "imageWidth": 1920
+}

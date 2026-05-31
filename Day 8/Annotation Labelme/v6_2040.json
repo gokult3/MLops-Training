@@ -1,0 +1,28 @@
+{
+  "version": "6.3.0",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "coffee  green",
+      "points": [
+        [
+          336.8085106382979,
+          568.5106382978723
+        ],
+        [
+          751.7021276595743,
+          830.2127659574468
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "v6_2040.jpg",
+  "imageData": null,
+  "imageHeight": 1920,
+  "imageWidth": 1080
+}

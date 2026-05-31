@@ -1,0 +1,28 @@
+{
+  "version": "6.3.0",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "coffee_maker",
+      "points": [
+        [
+          2116.9565217391305,
+          3654.782608695652
+        ],
+        [
+          8.260869565217263,
+          563.4782608695652
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "v8_3960.jpg",
+  "imageData": null,
+  "imageHeight": 3840,
+  "imageWidth": 2160
+}

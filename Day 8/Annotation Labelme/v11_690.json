@@ -1,0 +1,28 @@
+{
+  "version": "6.3.0",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "Shoes",
+      "points": [
+        [
+          938.9361702127659,
+          1108.936170212766
+        ],
+        [
+          4.893617021276555,
+          377.0212765957448
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "v11_690.jpg",
+  "imageData": null,
+  "imageHeight": 1920,
+  "imageWidth": 1080
+}

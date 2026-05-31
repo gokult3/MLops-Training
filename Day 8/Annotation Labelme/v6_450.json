@@ -1,0 +1,28 @@
+{
+  "version": "6.3.0",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "weight machine",
+      "points": [
+        [
+          998.5106382978723,
+          1579.148936170213
+        ],
+        [
+          0.0,
+          594.7301818805765
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "v6_450.jpg",
+  "imageData": null,
+  "imageHeight": 1920,
+  "imageWidth": 1080
+}

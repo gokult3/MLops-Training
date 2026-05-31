@@ -1,0 +1,28 @@
+{
+  "version": "6.3.0",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "foldable mobile",
+      "points": [
+        [
+          1426.09756097561,
+          1450.2439024390242
+        ],
+        [
+          2384.6341463414633,
+          386.8292682926829
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "v10_6840.jpg",
+  "imageData": null,
+  "imageHeight": 1920,
+  "imageWidth": 3840
+}
