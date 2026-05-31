@@ -1,0 +1,9 @@
+streamlit
+opencv-python
+sentence-transformers
+pandas
+numpy
+scikit-learn
+joblib
+tensorflow
+ultralytics
