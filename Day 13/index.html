@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>YOLO Vision · Object Detection</title>
+<link rel="stylesheet" href="/static/css/style.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+<!-- ── BACKGROUND GRID ── -->
+<div class="bg-grid"></div>
+<div class="bg-glow"></div>
+
+<!-- ── HEADER ── -->
+<header>
+  <div class="logo">
+    <span class="logo-icon">⬡</span>
+    <span class="logo-text">YOLO<em>Vision</em></span>
+  </div>
+  <div class="header-badge" id="healthBadge">
+    <span class="dot"></span> Loading model…
+  </div>
+</header>
+
+<!-- ── MAIN ── -->
+<main>
+
+  <!-- Upload Panel -->
+  <section class="panel upload-panel" id="uploadPanel">
+    <div class="panel-label">INPUT</div>
+
+    <div class="drop-zone" id="dropZone">
+      <input type="file" id="fileInput" accept="image/*" hidden />
+      <div class="drop-inner">
+        <div class="drop-icon">
+          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="4" y="10" width="40" height="30" rx="3" stroke="currentColor" stroke-width="2"/>
+            <circle cx="17" cy="20" r="4" stroke="currentColor" stroke-width="2"/>
+            <path d="M4 34l10-10 7 7 9-11 14 14" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <p class="drop-title">Drop image here</p>
+        <p class="drop-sub">or <span class="link" id="browseBtn">browse files</span></p>
+        <p class="drop-formats">PNG · JPG · WEBP · BMP</p>
+      </div>
+    </div>
+
+    <!-- Preview -->
+    <div class="preview-wrap hidden" id="previewWrap">
+      <img id="previewImg" src="" alt="preview" />
+      <button class="clear-btn" id="clearBtn" title="Remove">✕</button>
+    </div>
+
+    <!-- Confidence slider -->
+    <div class="conf-row">
+      <label class="conf-label">Confidence threshold</label>
+      <div class="slider-wrap">
+        <input type="range" id="confSlider" min="1" max="99" value="25" />
+        <span class="conf-val" id="confVal">25%</span>
+      </div>
+    </div>
+
+    <button class="detect-btn" id="detectBtn" disabled>
+      <span class="detect-icon">◈</span>
+      Run Detection
+    </button>
+  </section>
+
+  <!-- Result Panel -->
+  <section class="panel result-panel" id="resultPanel">
+    <div class="panel-label">OUTPUT</div>
+
+    <div class="result-placeholder" id="resultPlaceholder">
+      <div class="placeholder-grid">
+        <div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div>
+        <div></div>
+      </div>
+      <p>Awaiting detection…</p>
+    </div>
+
+    <!-- Annotated image -->
+    <div class="result-img-wrap hidden" id="resultImgWrap">
+      <img id="resultImg" src="" alt="result" />
+      <div class="result-stats" id="resultStats"></div>
+    </div>
+
+    <!-- Detection table -->
+    <div class="detections-wrap hidden" id="detectionsWrap">
+      <div class="det-header">
+        <span class="det-title">Detections</span>
+        <span class="det-count" id="detCount">0</span>
+      </div>
+      <div class="det-list" id="detList"></div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ── LOADER OVERLAY ── -->
+<div class="loader-overlay hidden" id="loaderOverlay">
+  <div class="loader-box">
+    <div class="spinner"></div>
+    <p id="loaderMsg">Running YOLO inference…</p>
+  </div>
+</div>
+
+<!-- ── TOAST ── -->
+<div class="toast hidden" id="toast"></div>
+
+<script src="/static/js/app.js"></script>
+</body>
+</html>
